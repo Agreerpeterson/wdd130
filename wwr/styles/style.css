@@ -199,6 +199,22 @@ footer a {
 main section img {
   box-sizing: border-box;
 }
+/* page 2 */
+
+.first-question{
+width: 350px;}
+
+
+.second-question{width:350px;}
+
+.third-question{width:350px}
+
+.fourth-question{width:350px}
+
+.fith-question{width:350px}
+
+.sixth-question{width:350px}
+
 
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
