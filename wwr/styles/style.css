@@ -167,7 +167,8 @@ footer a {
   width:100%;
   grid-row: 5/8;
   grid-column: 2/7;
-  box-shadow: 5px 5px 10px #6f7364;}
+  box-shadow: 5px 5px 10px #6f7364;
+border: 7px solid ;}
 
 
 .rivers-card {
@@ -187,7 +188,7 @@ footer a {
 }
 
 .card-img {
-  border: 10px solid #d9c2a3;
+  border: 10px solid #A42212;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
 }
@@ -210,7 +211,7 @@ text-align: center;
 
 .card-img2:hover{opacity: .6;
   transform: scale(1.1);}
-  
+
 .card-img2{width:90%;
 border: 7px solid #A42212;
 transition: transform .5s;
