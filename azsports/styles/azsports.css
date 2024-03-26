@@ -200,7 +200,7 @@ font-family:"Arimo","Times",Serif;}
 
 /* Cardinals page  */
 .cardinal-grid{display: grid;
-  grid-template-columns: repeat(10, 1fr);}
+  grid-template-columns: repeat(1fr 1fr 1fr);}
 
 #cardinal_hero {
   width: 100%;
@@ -256,9 +256,9 @@ font-family:"Arimo","Times",Serif;}
   
 }
 
-.the_roster{width: 20%;
+.the_roster{width: 100%;
 border: 7px solid #CF3030 ;margin: 200px 0;
-grid-row: 2/3;
+grid-row: 1/4;
 grid-column: 2/4;}
 
 .Team_roster{background-color: #cccccc;
@@ -283,7 +283,7 @@ grid-column: 2/4;}
   border: 7px solid  #CF3030;
   margin: 200px 0;
   grid-row: 2/3;
-  grid-column: 8/10;}
+  grid-column:4/5;}
 
 .Stats a {text-decoration: none;}
 
@@ -304,6 +304,8 @@ padding: 35px;
   grid-column: 6/10; }
 
 h5{font-size: 30px;}
+
+
   
 
 
