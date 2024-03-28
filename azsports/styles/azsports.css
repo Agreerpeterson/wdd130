@@ -186,7 +186,7 @@ button {
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: black;
   margin: 0;
   padding: 0;
 }
@@ -212,6 +212,7 @@ p {
 .cardinal-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #000;
 }
 
 #cardinal_hero {
@@ -266,6 +267,7 @@ p {
 .cardinal-grid{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #000;
   
 }
 .Roster a {
@@ -293,7 +295,7 @@ p {
 }
 
 .the_roster {
-  width: 250px;
+  width: 400px;
   border: 7px solid #cf3030;
   margin: 50px 0;
   
@@ -301,8 +303,11 @@ p {
 
 .Team_roster {
   background-color: #cccccc;
-  border: 7px solid black;
+  border: 7px solid #cf3030;;
   text-align: center;
+  font-size: 40px;
+   
+  
 }
 
 .Schedule a {
@@ -311,20 +316,22 @@ p {
 
 .schedule_msg {
   background-color: #cccccc;
-  border: 7px solid black;
+  border: 7px solid #cf3030;;
   color: black;
   text-align: center;
+  font-size: 40px ;
+  
 }
 
 .The_Schedule {
-  width: 150px;
+  width: 300px;
   border: 7px solid #cf3030;
   margin: 50px 0;
   
 }
 
 .The_Stats {
-  width: 150px;
+  width: 350px;
   border: 7px solid #cf3030;
   margin: 50px 0;
 }
@@ -335,28 +342,53 @@ p {
 
 .Player_Stats_msg {
   background-color: #cccccc;
-  border: 7px solid black;
+  border: 7px solid #cf3030;;
   color: black;
   text-align: center;
+  font-size: 40px;
+  
 }
 
 .teamlink a {
   text-decoration: none;
   color: black;
-  padding: 20px;
+  padding: 20px 100px;
+  text-align: center;
+  font-size:25px;
+ 
+ 
+  
 }
 
 .teamlink {
   background-color: #cccccc;
-  border: 7px solid black;
+  border: 7px solid #cf3030;
   color: black;
   font-size: 20px;
-  padding: 35px;
-  width: 80%;
-  margin: 0 auto;
+  text-align: center;
+  margin: 0px auto;
   margin-bottom: 25px ;
+ 
 }
 
+
+
 h5 {
-  font-size: 30px;
+  font-size: 40px;
+  text-align: center;
+  border: 7px solid black;
+  margin-top: 30px;
+  padding: 10px 20px; 
+  width: fit-content;
+  margin-left: auto; 
+  margin-right: auto;
 }
+
+.teamlink a:hover {
+  background-color: #cf3030;
+ 
+
+}
+  
+
+
