@@ -389,6 +389,173 @@ h5 {
  
 
 }
+
+
+/*Suns page*/
+
+
+
+#Suns_hero {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -100px;
+  position: relative; /* Adding relative positioning to the container */
+}
+
+#Suns_hero_box,
+#Suns-hero-img {
+  width: 100%;
+}
+
+#Suns-hero-img {
+  width: 100%;
+}
+
+#Suns_hero_box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
+
+#Suns-hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+}
+
+#Suns-hero-msg h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  color: #e88a1a;
+  
+}
+
+.Suns-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #e88a1a}
+
+.Suns_Roster a {
+  text-decoration: none;
+  color: black;
+}
+
+.Suns_Roster,
+.Suns_Schedule,
+.Suns_Stats {
+  grid-row: 2/3;
+  justify-self: center;
+  align-self: start;
+
+}
+
+.Suns_Roster {
+  grid-column: 1/2;
+}
+.Suns_Schedule{
+  grid-column: 2/3;
+}
+.Suns_Stats {
+  grid-column: 3/4;
+}
+
+.the_Suns_roster {
+  width: 400px;
+  border: 7px solid black;
+  margin: 50px 0;
+  
+}
+
+.Suns_roster_msg {
+  background-color: #cccccc;
+  border: 7px solid black;
+  text-align: center;
+  font-size: 40px;
+   
+  
+}
+
+.Suns_Schedule a {
+  text-decoration: none;
+}
+
+.Suns_Schedule_msg {
+  background-color: #cccccc;
+  border: 7px solid black;
+  color: black;
+  text-align: center;
+  font-size: 40px ;
+  
+}
+
+.The_Suns_Schedule {
+  width: 300px;
+  border: 7px solid black;
+  margin: 50px 0;
+  
+}
+
+.The_Suns_Stats {
+  width: 400px;
+  border: 7px solid black;
+  margin: 50px 0;
+}
+
+.Suns_Stats a {
+  text-decoration: none;
+}
+
+.Suns_stats_msg {
+  background-color: #cccccc;
+  border: 7px solid black;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  
+}
+
+.Suns_teamlinks a {
+  text-decoration: none;
+  color: black;
+  padding: 20px; /* Remove padding on left and right */
+  text-align: center;
+  font-size: 25px;
+  display: inline-block; /* or display: block; */
+}
+
+.Suns_teamlinks {
+  background-color: #cccccc;
+  border: 7px solid black;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 100%; 
+  grid-column: 1/4;
+  grid-row: 3/4;}
+
+
+
+h5 {
+  font-size: 40px;
+  text-align: center;
+  border: 7px solid black;
+  margin-top: 30px;
+  padding: 10px 20px; 
+  width: fit-content;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.Suns_teamlinks a:hover {
+  background-color: #e88a1a;
+}
+ 
+
+
   
 
 
